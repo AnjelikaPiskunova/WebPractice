@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c7ed234-4057-4c5e-b9cd-0d384f093a95" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1ZhEHOx7SbOGJCLGhfFHjuEw351" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c7ed234-4057-4c5e-b9cd-0d384f093a95" name="Default Changelist" comment="" />
+      <created>1585282836409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585282836409</updated>
+      <workItem from="1585282837786" duration="1565000" />
+      <workItem from="1585284664543" duration="1789000" />
+      <workItem from="1585286475397" duration="1782000" />
+      <workItem from="1585288521798" duration="817000" />
+      <workItem from="1585289595639" duration="451000" />
+      <workItem from="1585290670679" duration="264000" />
+      <workItem from="1585290960219" duration="573000" />
+      <workItem from="1585291556241" duration="276000" />
+      <workItem from="1585291994490" duration="13000" />
+      <workItem from="1585375904248" duration="1762000" />
+      <workItem from="1585378126275" duration="920000" />
+      <workItem from="1585379644877" duration="320000" />
+      <workItem from="1585405624440" duration="627000" />
+      <workItem from="1585458742821" duration="1334000" />
+      <workItem from="1585460523081" duration="622000" />
+      <workItem from="1585546598730" duration="1464000" />
+      <workItem from="1585551308415" duration="1748000" />
+      <workItem from="1585576029666" duration="1747000" />
+      <workItem from="1585577799676" duration="748000" />
+      <workItem from="1585578734427" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="849" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585578737524">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="849" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585578737524" />
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1585376325544">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585376325544" />
+  </component>
+</project>

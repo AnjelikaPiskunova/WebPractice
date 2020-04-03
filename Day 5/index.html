@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Калькулятор для расчета заработной платы!</title>
+</head>
+<body>
+    <header>
+        <h1 class="Zagolovok">Калькулятор Расчета Заработной Платы</h1>
+    </header>
+    <div id="app">
+    <form  @submit.prevent="checkForm" method="POST">
+    <div >  
+        <p v-if="errors.length" class = "err">
+            <b>Пожалуйста исправьте указанные ошибки:</b>
+            <ul>
+              <li v-for="error in errors">{{ error }}</li>
+            </ul>
+          </p>
+        
+          <div>
+            <div class="grid">
+                <fieldset class="customUp">
+                    <legend class="customDown"> Калькулятор расчета ЗП на VueJS.</legend>
+                    <div class="first">
+                        <label class="labl">- поле  ввода оклада <input type="text" class="inp ip1" v-model="txt1"></label><br>
+                        <label class="labl">- поле  ввода премии<input type="text" class="inp ip2" v-model="txt2"></label><br>
+                        <label class="labl">- поле  ввода районного коэффициента <input type="text" class="inp ip3 " v-model="txt3"></label><br>
+                        <label class="labl">- поле  ввода количества рабочих дней в месяце<input type="text" class="inp ip4" v-model="txt4"></label><br>
+                        <label class="labl">- поле  ввода кол-тва отработанных дней в месяце<input type="text" class="inp ip5" v-model="txt5"></label><br>
+                    </div>
+                    <button class="btn" @click="calc1()">Расчет ЗП</button>
+                    
+                    <div>
+                        <fieldset сlass="result">
+                            <legend>Результаты вычислений</legend>
+                        <label class="labl">- поле вывода полной зарплаты <textarea cols="25" rows="2" readonly class="txt txt1" v-model="result1">{{result1}}</textarea> </label><br>
+                        <label class="labl">- поле для вывода НДФЛ 13% <textarea cols="25" rows="2" readonly class="txt txt2" v-model="result2">{{result2}}</textarea> </label><br>
+                        <label class="labl">- поле вывода зарплаты на руки<textarea cols="25" rows="2" readonly class="txt txt3" v-model="result3">{{result3}}</textarea> </label><br>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+    <footer class="down">
+        <p>Выполнил Студен группы "П17-43К" Ишунин Илья</p>
+    </footer>
+
+</body>
+    <script src="script/script.js"></script>
+</html>

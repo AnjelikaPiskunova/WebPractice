@@ -1,0 +1,94 @@
+body{
+    background-color: slategray;
+}
+h1{
+    text-align: center;
+}
+
+.labl{
+    margin: 5px;
+    width: 500px;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-align: right;
+    color: #243849;
+}
+
+.customUp{
+  width: 700px;
+  margin: auto;
+}
+
+
+.btn{
+    background: grey;
+    border: 2px solid #eee;
+    height: 50px;
+    width: 200px;
+    margin: 50px auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    color: #243849;
+    
+}
+
+.down{
+    text-align: center;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: 0;
+    color: #243849;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-align: right;
+    
+  }
+
+.ip1{
+    margin: 5px ;
+    margin-left:237px;
+}
+.ip2{
+    margin: 5px;
+    margin-left:237px;
+}
+.ip3{
+    margin: 5px ;
+    margin-left:92px;
+}
+.ip4{
+    margin: 5px ;
+    margin-left:27px;
+}
+.ip5{
+    margin: 5px ;
+    margin-left:10px;
+}
+
+
+.txt2{
+    margin-left: 19px;
+}
+.txt1{
+    margin-left: 7px;
+}
+.txt3{
+    margin-left: 10px;
+}
+
+
+.err{
+    color: red;
+    font-size: 14 px;
+    text-align: center;
+}
+ul{
+    text-align:center;
+    color:red;
+    font-size: 14 px;
+}
